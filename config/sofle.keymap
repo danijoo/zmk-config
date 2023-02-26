@@ -19,6 +19,13 @@
 };
 
 / {
+     conditional_layers {
+       compatible = "zmk,conditional-layers";
+       tri_layer {
+         if-layers = <SPEC NAV>;
+         then-layer = <ADJUST>; 
+       };
+    };
 
     behaviors {
         tdrstl: tdrstl {
@@ -138,7 +145,7 @@
             bindings = <
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // | BLT Clear     | BLT0      | BLT1      | BLT2      | BLT3       | BLT4       |                                    |           |           |            |           |          |                |
-                 &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
+                 &tdblclear      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                               &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               |           |           |           |            |            |                                    |           |           |            |           |          |                |
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
