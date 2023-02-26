@@ -154,7 +154,7 @@
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // |               |           |           |           | VCC        | BLT/CABLE  |               |    |               |           |           |            |           |          |                |
-                 &trans          &trans      &trans      &trans      &trans       &trans       &trans               &trans          &trans      &trans      &trans       &trans      &trans     &trans
+                 &trans          &trans      &trans      &trans      &ext_power EP_TOG &trans  &trans               &trans          &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           |            |           |            |               |    |               |           |           |            |           |
                                              &trans      &trans       &trans      &trans       &trans               &trans          &trans      &trans      &trans       &trans
