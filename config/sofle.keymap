@@ -138,7 +138,7 @@
             bindings = <
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // | BLT Clear     | BLT0      | BLT1      | BLT2      | BLT3       | BLT4       |                                    |           |           |            |           |          |                |
-                 &tdblclear      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                               &trans      &trans      &trans       &trans      &trans       &trans
+                 &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               |           |           |           |            |            |                                    |           |           |            |           |          |                |
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
@@ -147,7 +147,7 @@
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // |               |           |           |           | VCC        | BLT/CABLE  |               |    |               |           |           |            |           |          |                |
-                 &trans          &trans      &trans      &trans      &ext_power EP_TOG &out OUT_TOG  &trans         &trans          &trans      &trans      &trans       &trans      &trans     &trans
+                 &trans          &trans      &trans      &trans      &trans       &trans       &trans               &trans          &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           |            |           |            |               |    |               |           |           |            |           |
                                              &trans      &trans       &trans      &trans       &trans               &trans          &trans      &trans      &trans       &trans
