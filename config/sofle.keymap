@@ -65,7 +65,7 @@
     macros {
         ud_grave: ud_grave {
             label = "UNDEAD_GRAVE";
-            compatible = "zmk,behaviour_macro";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <40>;
