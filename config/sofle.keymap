@@ -129,8 +129,8 @@
             // |               |           |           |           |            |            |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            // |               |           |           |           |            |            |               |    |               | PG DOWN   | PREV <<    | PAUSE     | NEXT >>   |          |                |
-                 &trans          &trans      &trans      &trans      &trans       &trans       &trans               &trans          &kp PG_DN   &kp C_PREV  &kp C_PP     &kp C_NEXT  &trans      &trans
+            // |               | undo      | cut       | copy      | paste      |            |               |    |               | PG DOWN   | PREV <<    | PAUSE     | NEXT >>   |          |                |
+                 &trans          &kp K_UNDO  &kp K_CUT   &kp K_COPY  &kp K_PASTE  &trans       &trans               &trans          &kp PG_DN   &kp C_PREV  &kp C_PP     &kp C_NEXT  &trans      &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           |            |           |            |               |    |               |           |           |            |           |
                                              &trans      &trans       &trans      &trans       &trans               &trans          &trans      &trans      &trans       &trans
