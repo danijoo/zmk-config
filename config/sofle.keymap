@@ -70,9 +70,9 @@
             wait-ms = <30>;
             tap-ms = <40>;
             bindings = <&kp GRAVE &kp SPACE>;
-        }
-    }
-
+        };
+    };
+    
     keymap {
         compatible = "zmk,keymap";
 
