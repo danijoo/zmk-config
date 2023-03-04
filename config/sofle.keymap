@@ -81,15 +81,6 @@
             bindings = <&kp TILDE &kp SPACE>;
         };
         
-        ud_dqt: ud_dqt {
-            label = "UNDEAD_QUOTE";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <40>;
-            bindings = <&kp DQT &kp SPACE>;
-        };
-        
         ud_sqt: ud_sqt {
             label = "UNDEAD_SINGLE_QUOTE";
             compatible = "zmk,behavior-macro";
