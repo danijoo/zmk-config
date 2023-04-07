@@ -160,11 +160,11 @@
             // |               |           |           |           |            |            |                                    | / reset   |           |            |           |          |                |
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &tdrstr     &trans      &trans      &trans      &trans       &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // | ALT+F4        |           |           |           | CAPS WORD  |            |                                    | PG UP     | INSERT    | PRINT      | MENU      |          |                |
-                 &kp LA(F4)      &trans      &trans      &trans      &tdcaps      &trans                                            &kp PG_UP   &kp INS     &kp PSCRN   &kp K_CMENU  &trans      &trans
+            // | ALT+F4        |           |           |           |            |            |                                    | PG UP     | HOME      | INSERT     | END       |          |                |
+                 &kp LA(F4)      &trans      &trans      &trans      &trans       &trans                                            &kp PG_UP   &kp HOME    &kp INS      &kp END     &trans      &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // |               |           |           |           |            |            |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
-                 &trans          &trans      &trans      &trans      &trans       &trans                                            &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
+            // |               |           | CAPSW/CAPS| PRINT     | MENU       |            |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
+                 &trans          &trans      &tdcaps     &kp PSCRN   &kp K_APP    &trans                                            &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // |               | undo      | cut       | copy      | paste      |            |               |    |               | PG DOWN   | PREV <<    | PAUSE     | NEXT >>   |          |                |
                  &trans          &kp K_UNDO  &kp K_CUT   &kp K_COPY  &kp K_PASTE  &trans       &trans               &trans          &kp PG_DN   &kp C_PREV  &kp C_PP     &kp C_NEXT  &trans      &trans
