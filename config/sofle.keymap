@@ -21,10 +21,10 @@
 
 // encoder resolution
 &left_encoder {
-    resolution = <4>;
+    resolution = <8>;
 };
 &right_encoder {
-    resolution = <4>;
+    resolution = <8>;
 };
 
 // faster layertap
