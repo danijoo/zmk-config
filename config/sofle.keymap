@@ -19,6 +19,14 @@
     continue-list = <UNDERSCORE MINUS LS(MINUS) UP DOWN LEFT RIGHT BSPC DEL>;
 };
 
+// encoder resolution
+&left_encoder {
+    resolution = <4>;
+};
+&right_encoder {
+    resolution = <4>;
+};
+
 // faster layertap
 &lt {
     quick-tap-ms = <0>;
