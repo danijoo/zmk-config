@@ -183,14 +183,14 @@
             // |               | F1        | F2        | F3        | F4         | F5 / reset |                                    | F6        | F7        | F8         | F9        | F10       | F11           |
                  &trans          &kp F1      &kp F2      &kp F3      &kp F4       &tdrstl                                           &kp F6      &kp F7      &kp F8       &kp F9      &kp F10     &kp F11
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // |               | /         |           |           |            | +          |                                    |            |           |            |           |          |                |
-                 &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &trans      &trans      &trans       &trans      &trans     &trans
+            // |               | /         |           |           | |          | +          |                                    |            |           |            |           |          |                |
+                 &trans          &kp SLASH   &trans      &trans      &kp PIPE     &kp PLUS                                          &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // | `             | !         | @         | #         | $          | %          |                                    | ^         | &         | *          | (         | )         | ~             |
                  &ud_grave       &kp EXCL    &kp AT      &kp HASH    &kp DLLR     &kp PRCNT                                         &kp CARET   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            // | SHIFT         | *         |           |           |            | -          |               |    |               | [         | ]         | _          | |         | \         |               |
-                 &trans          &kp STAR   &trans      &trans       &trans       &kp MINUS    &trans               &trans          &kp LBKT    &kp RBKT    &kp UNDER    &kp PIPE    &kp BSLH    &trans
+            // | SHIFT         | *         |           |           | _          | -          |               |    |               | [         | ]         |            |           | \         |               |
+                 &trans          &kp STAR   &trans      &trans       &kp UNDER    &kp MINUS    &trans               &trans          &kp LBKT    &kp RBKT    &kp UNDER    &kp PIPE    &kp BSLH    &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           |            |           |            |               |    |               |           |           |            |           |
                                              &trans      &trans       &trans      &trans       &trans               &trans          &trans      &trans      &trans       &trans
