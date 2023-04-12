@@ -220,8 +220,8 @@
             // |               |           |           |           |            |            |                                    | / reset   |           |            |           |          |                |
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &tdrstr     &trans      &trans      &trans      &trans       &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // | ALT+F4        | /         | 7         | 8         | 9          | +          |                                    | PG UP     | LA(LEFT)  |            | LA(RIGHT) | HOME     |                |
-                 &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                          &kp PG_UP   &kp LA(LEFT) &trans    &kp LA(RIGHT) &kp HOME    &trans
+            // | ALT+F4        | /         | 7         | 8         | 9          | +          |                                    | PG UP     | LA(LEFT)  |  PRINT      | LA(RIGHT) | HOME     |                |
+                 &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                          &kp PG_UP   &kp LA(LEFT) &kp PSCRN  &kp LA(RIGHT) &kp HOME    &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               | !         | 4         | 5         | 6          | =          |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
                  &trans          &kp EXCL    &kp N4      &kp N5      &kp N6       &kp EQUAL                                         &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
