@@ -111,6 +111,15 @@
             tap-ms = <40>;
             bindings = <&kp SQT &kp SPACE>;
         };
+        
+        ud_caret: ud_caret {
+            label = "UNDEAD_CARET";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp CARET &kp SPACE>;
+        };
 
         win_left: win_left {
             label = "WINDOWS LEFT";
@@ -187,7 +196,7 @@
                  &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &kp AT      &kp HASH    &kp DOLLAR   &kp PRCNT   &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // | `             | !         |           |           |            | =          |                                    | ^         | &         | *          | (         | )         | ~             |
-                 &ud_grave       &kp EXCL    &trans      &trans      &trans       &kp EQUAL                                         &kp CARET   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
+                 &ud_grave       &kp EXCL    &trans      &trans      &trans       &kp EQUAL                                         &ud_caret   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // | SHIFT         | *         |           |           |            | -          |               |    |               | [         | ]         | _          | |        | \         |               |
                  &trans          &kp STAR   &trans       &trans      &trans       &kp MINUS    &trans               &trans          &kp LBKT    &kp RBKT    &kp UNDER    &kp PIPE    &kp BSLH    &trans
