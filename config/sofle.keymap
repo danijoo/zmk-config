@@ -15,6 +15,8 @@
 #define NAV   2
 #define ADJUST 3
 
+#define MACRO_TAP_TIME 10;
+
 &caps_word {
     continue-list = <UNDERSCORE MINUS LS(MINUS) UP DOWN LEFT RIGHT BSPC DEL>;
 };
@@ -89,8 +91,8 @@
             label = "UNDEAD_GRAVE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings = <&kp GRAVE &kp SPACE>;
         };
         
@@ -98,8 +100,8 @@
             label = "UNDEAD_TILDE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings = <&kp TILDE &kp SPACE>;
         };
         
@@ -107,8 +109,8 @@
             label = "UNDEAD_SINGLE_QUOTE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings = <&kp SQT &kp SPACE>;
         };
         
@@ -116,8 +118,8 @@
             label = "UNDEAD_CARET";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings = <&kp CARET &kp SPACE>;
         };
 
@@ -125,8 +127,8 @@
             label = "WINDOWS LEFT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp LEFT>
@@ -137,8 +139,8 @@
             label = "WINDOWS RIGHT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp RIGHT>
@@ -149,8 +151,8 @@
             label = "WINDOWS UP";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <MACRO_TAB_TIME>;
+            tap-ms = <MACRO_TAB_TIME>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp UP>
