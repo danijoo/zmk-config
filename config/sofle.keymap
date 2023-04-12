@@ -15,7 +15,7 @@
 #define NAV   2
 #define ADJUST 3
 
-#define MACRO_TAP_TIME 10;
+#define MACRO_TAP_TIME 10
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS LS(MINUS) UP DOWN LEFT RIGHT BSPC DEL>;
