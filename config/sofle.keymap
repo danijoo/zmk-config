@@ -89,8 +89,8 @@
             label = "UNDEAD_GRAVE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <40>;
+            wait-ms = <10>;
+            tab-ms = <10>;
             bindings = <&kp GRAVE &kp SPACE>;
         };
         
@@ -98,8 +98,8 @@
             label = "UNDEAD_TILDE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <40>;
+            wait-ms = <10>;
+            tab-ms = <10>;
             bindings = <&kp TILDE &kp SPACE>;
         };
         
@@ -107,8 +107,8 @@
             label = "UNDEAD_SINGLE_QUOTE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <40>;
+            wait-ms = <10>;
+            tab-ms = <10>;
             bindings = <&kp SQT &kp SPACE>;
         };
         
@@ -116,8 +116,8 @@
             label = "UNDEAD_CARET";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <40>;
+            wait-ms = <10>;
+            tab-ms = <10>;
             bindings = <&kp CARET &kp SPACE>;
         };
 
@@ -126,6 +126,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
+            tab-ms = <10>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp LEFT>
@@ -137,6 +138,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
+            tab-ms = <10>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp RIGHT>
@@ -148,6 +150,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
+            tab-ms = <10>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp UP>
