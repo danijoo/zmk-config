@@ -184,7 +184,7 @@
                  &trans          &kp F1      &kp F2      &kp F3      &kp F4       &tdrstl                                           &kp F6      &kp F7      &kp F8       &kp F9      &kp F10     &kp F11
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               | /         |           |           |            | +          |                                    | @         | #         | $          | %         |          |                |
-                 &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &kp AT      &kp HASH    &kp DOLLR    &kp PRCNT   &trans     &trans
+                 &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &kp AT      &kp HASH    &kp DOLLAR   &kp PRCNT   &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // | `             | !         |           |           |            | =          |                                    | ^         | &         | *          | (         | )         | ~             |
                  &ud_grave       &kp EXCL    &trans      &trans      &trans       &kp EQUAL                                         &kp CARET   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
