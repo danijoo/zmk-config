@@ -186,11 +186,11 @@
             // |               | /         |           |           |            | +          |                                    | @         | #         | $          | %         |          |                |
                  &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &kp AT      &kp HASH    &kp DOLLR    &kp PRCNT   &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // | `             | !         |           |           |            | -          |                                    | ^         | &         | *          | (         | )         | ~             |
+            // | `             | !         |           |           |            | =          |                                    | ^         | &         | *          | (         | )         | ~             |
                  &ud_grave       &kp EXCL    &trans      &trans      &trans       &kp EQUAL                                         &kp CARET   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            // | SHIFT         | *         |           |           |            | =          |               |    |               | [         | ]         | _          | |        | \         |               |
-                 &trans          &kp STAR   &trans      &trans       &trans       &kp MINUS    &trans               &trans          &kp LBKT    &kp RBKT    &kp UNDER    &kp PIPE    &kp BSLH    &trans
+            // | SHIFT         | *         |           |           |            | -          |               |    |               | [         | ]         | _          | |        | \         |               |
+                 &trans          &kp STAR   &trans       &trans      &trans       &kp MINUS    &trans               &trans          &kp LBKT    &kp RBKT    &kp UNDER    &kp PIPE    &kp BSLH    &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           |            |           |            |               |    |               |           |           |            |           |
                                              &trans      &trans       &trans      &trans       &trans               &trans          &trans      &trans      &trans       &trans
