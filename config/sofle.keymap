@@ -30,7 +30,7 @@
 // faster layertap
 &lt {
     quick-tap-ms = <0>;
-    tapping-term-ms = <100>; 
+    tapping-term-ms = <150>; 
 };
 
 / {
