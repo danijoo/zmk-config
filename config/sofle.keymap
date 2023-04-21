@@ -15,7 +15,7 @@
 #define NAV   2
 #define ADJUST 3
 
-#define TAPTERM 100;
+#define TAPTERM 100
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS LS(MINUS) UP DOWN LEFT RIGHT BSPC DEL>;
