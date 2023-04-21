@@ -15,6 +15,8 @@
 #define NAV   2
 #define ADJUST 3
 
+#define TAPTERM 100;
+
 &caps_word {
     continue-list = <UNDERSCORE MINUS LS(MINUS) UP DOWN LEFT RIGHT BSPC DEL>;
 };
@@ -30,7 +32,7 @@
 // faster layertap
 &lt {
     quick-tap-ms = <0>;
-    tapping-term-ms = <150>; 
+    tapping-term-ms = <TAPTERM>; 
 };
 
 / {
@@ -47,7 +49,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "tdrstl";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPTERM>;
             bindings = <&kp F5>, <&reset>;
         };
         
@@ -55,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "tdblclear";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPTERM>;
             bindings = <&trans>, <&bt BT_CLR>;
         };
         
@@ -63,7 +65,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "tdrstr";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPTERM>;
             bindings = <&kp F6>, <&reset>;
         };
         
@@ -71,7 +73,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "tdcaps";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPTERM>;
             bindings = <&caps_word>, <&kp CAPS>;
         };
         
@@ -79,7 +81,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "tapdance ctrl/capsword";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPTERM>;
             bindings = <&kp LCTRL>, <&caps_word>;
         };
     };
