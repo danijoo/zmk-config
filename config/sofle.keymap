@@ -195,11 +195,11 @@
             // |               | F1        | F2        | F3        | F4         | F5 / reset |                                    | F6        | F7        | F8         | F9        | F10       | F11           |
                  &trans          &kp F1      &kp F2      &kp F3      &kp F4       &tdrstl                                           &kp F6      &kp F7      &kp F8       &kp F9      &kp F10     &kp F11
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // |               | /         |           |           |            | +          |                                    | @         | #         | $          | %         |          |                |
-                 &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &kp AT      &kp HASH    &kp DOLLAR   &kp PRCNT   &trans     &trans
+            // |               | /         |           |           |            | +          |                                    | !         | @         | #          | $         | %       |                |
+                 &trans          &kp SLASH   &trans      &trans      &trans       &kp PLUS                                          &kp EXCL    &kp AT      &kp HASH     &kp DOLLAR  &PRCNT     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // | `             | !         |           |           |            | =          |                                    | ^         | &         | *          | (         | )         | ~             |
-                 &ud_grave       &kp EXCL    &trans      &trans      &trans       &kp EQUAL                                         &ud_caret   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
+            // | `             |           |           |           |            | =          |                                    | ^         | &         | *          | (         | )         | ~             |
+                 &ud_grave       &trans      &trans      &trans      &trans       &kp EQUAL                                         &ud_caret   &kp AMPS    &kp STAR     &kp LPAR    &kp RPAR    &ud_tilde
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // | SHIFT         | *         |           |           |            | -          |               |    |               | [         | ]         | _          | |        | \         |               |
                  &trans          &kp STAR   &trans       &trans      &trans       &kp MINUS    &trans               &trans          &kp LBKT    &kp RBKT    &kp UNDER    &kp PIPE    &kp BSLH    &trans
@@ -223,14 +223,14 @@
             // | ALT+F4        | /         | 7         | 8         | 9          | +          |                                    | PG UP     | LA(LEFT)  |  PRINT      | LA(RIGHT) | HOME     |                |
                  &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                          &kp PG_UP   &kp LA(LEFT) &kp PSCRN  &kp LA(RIGHT) &kp HOME    &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // |               | !         | 4         | 5         | 6          | =          |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
-                 &trans          &kp EXCL    &kp N4      &kp N5      &kp N6       &kp EQUAL                                         &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
+            // |               | 0         | 1         | 2         | 3          | =          |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
+                 &trans          &kp N0      &kp N1      &kp N2      &kp N3       &kp EQUAL                                         &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            // |               | *         | 1         | 2         | 3          | -          |               |    |               | PG DOWN   | LG(LEFT)  | LG(UP)     | LG(RIGHT) | END      |                |
-                 &trans          &kp STAR    &kp N1      &kp N2      &kp N3       &kp MINUS    &trans               &trans          &kp PG_DN   &win_left   &win_up    &win_right    &kp END     &trans
+            // |               | *         | 4         | 5         | 6          | -          |               |    |               | PG DOWN   | LG(LEFT)  | LG(UP)     | LG(RIGHT) | END      |                |
+                 &trans          &kp STAR    &kp N4      &kp N5      &kp N6       &kp MINUS    &trans               &trans          &kp PG_DN   &win_left   &win_up    &win_right    &kp END     &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            //                             |           | .         | 0          |            |               |    |               |           |           |            |           |
-                                             &trans      &kp DOT     &kp N0       &trans       &trans               &trans          &trans      &trans      &trans       &trans
+            //                             |           |           |            |            |               |    |               |           |           |            |           |
+                                             &trans      &trans      &tans        &trans       &trans               &trans          &trans      &trans      &trans       &trans
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
