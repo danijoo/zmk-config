@@ -188,7 +188,7 @@
                  &mt LSHFT LBRC  &kp Z       &kp X       &kp C       &kp V        &kp B        &kp C_MUTE           &kp C_PP        &kp N       &kp M       &kp COMMA    &kp DOT     &kp FSLH    &mt RSHFT RBRC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           | GUI        | ALT       | SPECIAL    | ENTER         |    | SPACE         | NAV       | ALT       | GUI        |           |
-                                             &trans      &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &tdtognav      &lt NAV BSPC &kp RALT    &kp RGUI     &trans
+                                             &trans      &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET         &tdtognav   &kp RALT    &kp RGUI     &trans
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
