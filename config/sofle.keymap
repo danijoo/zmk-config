@@ -83,12 +83,12 @@
             bindings = <&kp LCTRL>, <&caps_word>;
         };
 
-        tdsticknum: tdsticknum {
+        tdtognum: tdtognum {
             compatible = "zmk,behavior-tap-dance";
-            label = "tapdance sticky SPEC layer";
+            label = "tapdance toggle SPEC layer";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lt SPEC ESC>, <&sl SPEC>;
+            bindings = <&lt SPEC ESC>, <&tog SPEC>;
         };
     };
     
@@ -188,7 +188,7 @@
                  &mt LSHFT LBRC  &kp Z       &kp X       &kp C       &kp V        &kp B        &kp C_MUTE           &kp C_PP        &kp N       &kp M       &kp COMMA    &kp DOT     &kp FSLH    &mt RSHFT RBRC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           | GUI        | ALT       | SPECIAL    | ENTER         |    | SPACE         | NAV       | ALT       | GUI        |           |
-                                             &trans      &kp LGUI     &kp LALT    &tdsticknum  &kp SPACE            &mt RALT RET   &lt NAV BSPC &kp RALT    &kp RGUI     &trans
+                                             &trans      &kp LGUI     &kp LALT    &tdtognum  &kp SPACE            &mt RALT RET   &lt NAV BSPC &kp RALT    &kp RGUI     &trans
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
