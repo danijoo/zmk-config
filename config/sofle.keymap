@@ -50,7 +50,7 @@
             label = "tdrstl";
             #binding-cells = <0>;
             tapping-term-ms = <TAPTERM>;
-            bindings = <&kp F5>, <&reset>;
+            bindings = <&kp F5>, <&sys_reset>;
         };
         
         tdblclear: tdblclear {
@@ -66,7 +66,7 @@
             label = "tdrstr";
             #binding-cells = <0>;
             tapping-term-ms = <TAPTERM>;
-            bindings = <&kp F6>, <&reset>;
+            bindings = <&kp F6>, <&sys_reset>;
         };
         
         tdcaps: tdcaps {
