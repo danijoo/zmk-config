@@ -6,18 +6,18 @@ manifest:
       url-base: https://github.com/infused-kim
     - name: dnlbauer
       url-base: https://github.com/dnlbauer
+    - name: tklzg
+      url-base: https://github.com/tklzg
   projects:
     - name: zmk
-      remote: dnlbauer
-      revision: waterfowl-encoders
       import: app/west.yml
-   #- name: zmk
+   #  remote: dnlbauer
+   #  revision: waterfowl-encoders
+      remote: tklzg
+      revision: encoder
    #  remote: infused-kim
    #  revision: sofle
-   #  import: app/west.yml
-   #- name: zmk
    #  remote: zmkfirmware
    #  revision: main
-   #  import: app/west.yml
   self:
     path: config
