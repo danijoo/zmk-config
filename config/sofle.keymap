@@ -175,14 +175,14 @@
             // | TAB           | Q         | W         | E         | R          | T          |                                    | Y         | U         | I          | O         | P         | BKSPC         |
                  &kp TAB         &kp Q       &kp W       &kp E       &kp R        &kp T                                             &kp Y       &kp U       &kp I        &kp O       &kp P       &kp BSPC
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // | CTRL / CAPSW  | A         | S         | D         | F          | G          |                                    | H         | J         | K          | L         | ;         | '             |
-                 &tdctrlcap      &kp A       &kp S       &kp D       &kp F        &kp G                                             &kp H       &kp J       &kp K        &kp L       &kp SEMI    &ud_sqt
+            // | CTRL            | A         | S         | D         | F          | G          |                                    | H         | J         | K          | L         | ;         | '             |
+                 &kp CTRL        &kp A       &kp S       &kp D       &kp F        &kp G                                             &kp H       &kp J       &kp K        &kp L       &kp SEMI    &ud_sqt
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // | SHIFT / {     | Z         | X         | C         | V          | B          | MUTE          |    | PLAY/PAUSE    | N         | M         | ,          | .         | /         | SHIFT / }     |
                  &mt LSHFT LBRC  &kp Z       &kp X       &kp C       &kp V        &kp B        &kp C_MUTE           &kp C_PP        &kp N       &kp M       &kp COMMA    &kp DOT     &kp FSLH    &mt RSHFT RBRC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        |           |
-                                             &tog NAV    &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &trans
+            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        | CAPSW     |
+                                             &tog NAV    &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &caps_word
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
