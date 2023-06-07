@@ -36,6 +36,11 @@
     tapping-term-ms = <150>; 
 };
 
+// faster modtap
+&mt {
+    tapping-term-ms = <200>;
+}; 
+
 / {
      conditional_layers {
        compatible = "zmk,conditional-layers";
