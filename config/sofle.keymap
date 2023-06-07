@@ -276,7 +276,7 @@
                  &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &trans       &trans      &trans     &trans
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               |           |           |           |            |            |                                    |           |           |            |           |          |                |
-                 &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &to COLEMAK  &trans      &trans     &trans
+                 &trans          &trans      &trans      &trans      &trans       &trans                                            &trans      &trans      &tog COLEMAK &trans      &trans     &trans
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // |               |           |           |           | VCC        | BLT/CABLE  |               |    |               |           |           |            |           |          |                |
                  &trans          &trans      &trans      &trans      &ext_power EP_TOG &out OUT_TOG  &trans         &trans          &trans      &trans      &trans       &trans      &trans     &trans
