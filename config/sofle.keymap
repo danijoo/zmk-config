@@ -212,8 +212,8 @@
             // | SHIFT / {     | Z         | X         | C         | D          | V          | MUTE          |    | PLAY/PAUSE    | K         | H         | ,          | .         | /         | SHIFT / }     |
                  &mt LSHFT LBRC  &kp Z       &kp X       &kp C       &kp D        &kp V        &kp C_MUTE           &kp C_PP        &kp K       &kp H       &kp COMMA    &kp DOT     &kp FSLH    &mt RSHFT RBRC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        |           |
-                                             &trans      &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &trans
+            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        | CAPSW     |
+                                             &trans      &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &caps_word
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
@@ -254,13 +254,13 @@
                  &trans          &kp F1      &kp F2      &kp F3      &kp F4       &tdrstl                                           &tdrstr      &kp F7      &kp F8       &kp F9      &kp F10   &kp F11
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // | ALT+F4        | /         | 7         | 8         | 9          | +          |                                    | LA(LEFT)  | PG UP     | PG DOWN    | LA(RIGHT) |  PRINT   |                |
-                 &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                         &kp LA(LEFT) &kp PG_UP   &kp PG_DN    &kp LA(RIGHT) &kp PSCRN &kp F12
+                 &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                         &kp LA(LEFT) &kp PG_DN   &kp PSCRN    &kp LA(RIGHT) &kp PSCRN &kp F12
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               | 0         | 1         | 2         | 3          | =          |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      | BACKSPACE     |
                  &trans          &kp N0      &kp N1      &kp N2      &kp N3       &kp EQUAL                                         &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL    &BSPC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             // |               | *         | 4         | 5         | 6          | -          |               |    |               | CAPS WORD | INSERT    | HOME       | END       | PAUSE    | WIN+L               |
-                 &trans          &kp STAR    &kp N4      &kp N5      &kp N6       &kp MINUS    &trans               &trans          &caps_word  &kp INSERT  &kp HOME     &kp END     &kp PAUSE  &kp LG(L)
+                 &trans          &kp STAR    &kp N4      &kp N5      &kp N6       &kp MINUS    &trans               &trans          &caps_word  &kp INSERT  &kp HOME     &kp END     &kp(PAUSE) &kp LG(L)
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
             //                             |           |           |            |            |               |    |               |           |           |            |           |
                                              &trans      &trans      &trans        &trans       &trans               &trans          &trans      &trans      &trans       &trans
