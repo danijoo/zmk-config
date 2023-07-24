@@ -251,10 +251,10 @@
             bindings = <
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               |           |           |           |            |            |                                    | / reset   |           |            |           |          |                |
-                 &trans          &kp F1      &kp F2      &kp F3      &kp F4       &tdrstl                                           &tdrstr      &kp F7      &kp F8       &kp F9      &kp F10     &kp F11// _______________________________________________________________________________                                    ______________________________________________________________________________
+                 &trans          &kp F1      &kp F2      &kp F3      &kp F4       &tdrstl                                           &tdrstr      &kp F7      &kp F8       &kp F9      &kp F10     &kp F11
             // _______________________________________________________________________________                                    ______________________________________________________________________________
-            // | ALT+F4        | /         | 7         | 8         | 9          | +          |                                    | PG UP     | LA(LEFT)  |  PRINT      | LA(RIGHT) | HOME     |                |
-                 &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                          &kp PG_UP   &kp LA(LEFT) &kp PSCRN  &kp LA(RIGHT) &kp HOME    &trans
+            // | ALT+F4        | /         | 7         | 8         | 9          | +          |                                    | PG UP     | LA(LEFT)  |  PRINT      | LA(RIGHT) | PRINT   |                |
+                 &kp LA(F4)      &kp SLASH   &kp N7      &kp N8      &kp N9       &kp PLUS                                          &kp PG_UP   &kp LA(LEFT) &kp PSCRN  &kp LA(RIGHT) &kp PSCRN  &kp F12
             // _______________________________________________________________________________                                    ______________________________________________________________________________
             // |               | 0         | 1         | 2         | 3          | =          |                                    | LEFT      | DOWN      | UP         | RIGHT     | DEL      |  BACKSPACE     |
                  &trans          &kp N0      &kp N1      &kp N2      &kp N3       &kp EQUAL                                         &kp LEFT    &kp DOWN    &kp UP       &kp RIGHT   &kp DEL     &kp BSPC
