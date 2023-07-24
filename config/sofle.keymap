@@ -187,8 +187,8 @@
             // | SHIFT / {     | Z         | X         | C         | V          | B          | MUTE          |    | PLAY/PAUSE    | N         | M         | ,          | .         | /         | SHIFT / }     |
                  &mt LSHFT LBRC  &kp Z       &kp X       &kp C       &kp V        &kp B        &kp C_MUTE           &kp C_PP        &kp N       &kp M       &kp COMMA    &kp DOT     &kp FSLH    &mt RSHFT RBRC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        | CAPSW     |
-                                             &tog NAV    &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &caps_word
+            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        |           |
+                                             &trans      &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &trans
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
@@ -212,8 +212,8 @@
             // | SHIFT / {     | Z         | X         | C         | D          | V          | MUTE          |    | PLAY/PAUSE    | K         | H         | ,          | .         | /         | SHIFT / }     |
                  &mt LSHFT LBRC  &kp Z       &kp X       &kp C       &kp D        &kp V        &kp C_MUTE           &kp C_PP        &kp K       &kp H       &kp COMMA    &kp DOT     &kp FSLH    &mt RSHFT RBRC
             // _______________________________________________________________________________________________    ______________________________________________________________________________________________
-            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        | CAPSW     |
-                                             &tog NAV    &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &caps_word
+            //                             |           | GUI        | ALT       | SPECIAL    | SPACE         |    | RETURN        | NAV       | ALT       | GUI        |           |
+                                             &trans      &kp LGUI     &kp LALT    &lt SPEC ESC &kp SPACE            &kp RET       &lt NAV BSPC  &kp RALT    &kp RGUI     &trans
             //                             ___________________________________________________________________    __________________________________________________________________
             >;
 
